@@ -3,7 +3,10 @@ import strutils
 import os
 
 # The portaudio DLL is coming from (not most recent, but fairly recent):
-# https://github.com/adfernandes/precompiled-portaudio-windows
+#   https://github.com/adfernandes/precompiled-portaudio-windows
+# Reference links:
+#   http://portaudio.com/docs/v19-doxydocs/api_overview.html
+#   https://bitbucket.org/BitPuffin/nim-portaudio/src/d739cb67ab6f2b99ecedf57c664ff5e87d0b0bb5/src/portaudio.nim?at=default&fileviewer=file-view-default
 import portaudio as PA
 
 # requires: nimble install oldwinapi

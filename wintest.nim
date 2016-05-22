@@ -1,3 +1,10 @@
+# -------------------------------
+# Experiment with win32 GUIs
+# -------------------------------
+#
+# from:
+# http://forum.nim-lang.org/t/1531
+
 import
   windows
 
